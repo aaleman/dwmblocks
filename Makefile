@@ -9,6 +9,7 @@ blocks.h:
 
 
 clean:
+	rm blocks.h
 	rm -f *.o *.gch dwmblocks
 install: output
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
