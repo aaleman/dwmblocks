@@ -1,15 +1,16 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
+	//{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
 
-	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
+	//{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 		/*Icon*/	/*Command*/	 	/*Update Interval*/	/*Update Signal*/
-    {" 🐧 ", "~/.dotfiles/wm/dwm/scripts/kernel",		    360,		        2},
+    //{" 🐧 ", "~/.dotfiles/wm/dwm/scripts/kernel",		    360,		        2},
 	{" 🔺 ", "~/.dotfiles/wm/dwm/scripts/upt",		        60,		            2},
 	//{" 📦 ", "~/.dotfiles/wm/dwm/scripts/pacupdate",		360,		        9},
 	{" 💻 ", "~/.dotfiles/wm/dwm/scripts/memory",	        6,		            1},
-	{" 🔊 ", "~/.dotfiles/wm/dwm/scripts/volume",			2,		            10},
+	//{" 🔊 ", "~/.dotfiles/wm/dwm/scripts/volume",			2,		            10},
+	{"", "~/.dotfiles/wm/dwm/scripts/battery",			6,		            10},
 	{" 🕑 ", "~/.dotfiles/wm/dwm/scripts/clock",			5,		            0},
 
 };
