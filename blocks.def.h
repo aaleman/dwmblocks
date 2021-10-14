@@ -5,13 +5,13 @@ static const Block blocks[] = {
 
 	//{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 		/*Icon*/	/*Command*/	 	/*Update Interval*/	/*Update Signal*/
-    //{" 🐧 ", "~/.dotfiles/wm/dwm/scripts/kernel",		    360,		        2},
-	{" 🔺 ", "~/.dotfiles/wm/dwm/scripts/upt",		        60,		            2},
-	//{" 📦 ", "~/.dotfiles/wm/dwm/scripts/pacupdate",		360,		        9},
-	{" 💻 ", "~/.dotfiles/wm/dwm/scripts/memory",	        6,		            1},
-	//{" 🔊 ", "~/.dotfiles/wm/dwm/scripts/volume",			2,		            10},
-	{"", "~/.dotfiles/wm/dwm/scripts/battery",			6,		            10},
-	{" 🕑 ", "~/.dotfiles/wm/dwm/scripts/clock",			5,		            0},
+    //{" 🐧 ", "~/.dotfiles/dwm/scripts/kernel",		    360,		        2},
+	{" 🔺 ", "~/.dotfiles/dwm/scripts/upt",		        60,		            2},
+	//{" 📦 ", "~/.dotfiles/dwm/scripts/pacupdate",		360,		        9},
+	{" 💻 ", "~/.dotfiles/dwm/scripts/memory",	        6,		            1},
+	{" 🔊 ", "~/.dotfiles/dwm/scripts/volume",			2,		            10},
+	{"", "~/.dotfiles/dwm/scripts/battery",			6,		            10},
+	{" 🕑 ", "~/.dotfiles/dwm/scripts/clock",			5,		            0},
 
 };
 
